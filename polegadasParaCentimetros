@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int in;
+    float cm;
+    in = 1;
+        while(in <= 20) {
+             cm = in * 2.54;
+             printf("%d || %.1f\n", in, cm);
+             in++;
+        }
+}
