@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+    int combustivel, alcool = 1, gasolina = 1, diesel = 1;
+    
+    printf("MUITO OBRIGADO\n");
+    
+    scanf("%d", &combustivel);
+    
+    for (combustivel =1 ; alcool++) {
+    printf("Alcool: %d\n", alcool);
+    }
+    
+    for (combustivel = 2 ; gasolina++) {
+    printf("Gasolina: %d\n", gasolina);
+    }
+    
+    for (combustivel = 3; disel++) {
+    printf("Diesel: %d\n", diesel);
+    }
+    
+    for (combistivel = 4); {
+    }
+    
+    if (combustivel > 4 && combustivel > 1) {
+        scanf("%d", &combustivel);
+    }
+    
+
+}
