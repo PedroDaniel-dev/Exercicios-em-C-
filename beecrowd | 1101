@@ -2,6 +2,7 @@
 
 int main() {
     int m, n, maior, menor;
+    while (1) {
     scanf("%d %d", &m, &n);
     if (m - n > 0) {
         maior = m;
@@ -12,7 +13,7 @@ int main() {
     }
     
     if (menor <= 0) {
-        return 0;
+        break;
     }
 
     int soma = 0;
@@ -21,6 +22,6 @@ int main() {
         soma += menor;
         menor++;
     }
-    printf("Sum=%d", soma);
+    printf("Sum=%d\n", soma);
+    }
 }
-    
