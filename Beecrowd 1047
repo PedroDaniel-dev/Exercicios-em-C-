@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int mi, mf, hi, hf;
+    scanf("%d %d %d %d", &hi, &mi, &hf, &mf);
+    int deltaH = hf - hi;
+    int deltaM = mf - mi;
+    
+    if (hi == hf && mi >= mf) {
+        deltaH = 24;  
+    }
+    
+    if (hf < hi){
+        deltaH = 24 + deltaH;
+        
+    }
+    
+    if (mf < mi) {
+    deltaH--;
+    deltaM = 60 + deltaM;
+    }
+
+   
+    printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", deltaH, deltaM);
+
+    return 0;
+}
