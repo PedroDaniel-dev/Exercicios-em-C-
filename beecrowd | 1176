@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+ 
+    int n, valor, posicao;
+    scanf("%d", &n);
+    int fib[n + 1];
+    
+    for (int i = 0; i < n; i++){ 
+        fib[i] = fib[i - 1] + fib[i - 2];
+        valor = fib [i];
+        posicao = 0;
+    }
+    
+    for (int pos = 0; pos < n; pos++ ) {
+        scanf("%d", &fib[i]);
+        printf("Fib (%d) = %d", posicao, valor);
+    }
+ 
+    return 0;
+}
